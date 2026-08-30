@@ -1,0 +1,24 @@
+# Inferred from the imports actually used across the repository (h21_core.py, train_all.py,
+# stage_campaign.py, train_families.py, finalize_models.py, verify_consistency.py, redconapp.py).
+# No lockfile existed in the original repository, so versions below are lower bounds on
+# recent, mutually-compatible releases rather than an exact reproduction of the original
+# environment — pin exact versions once you confirm what trained the committed models
+# (`pip freeze > requirements.txt` from that environment, if you still have it).
+
+numpy>=1.26
+pandas>=2.1
+scipy>=1.11
+scikit-learn>=1.4
+
+xgboost>=2.0
+lightgbm>=4.1
+catboost>=1.2
+
+torch>=2.1
+
+optuna>=3.4
+
+streamlit>=1.32
+plotly>=5.18
+
+joblib>=1.3
