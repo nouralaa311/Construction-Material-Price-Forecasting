@@ -1,0 +1,40 @@
+﻿# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Logs ---
+*.log
+
+# --- OS / editor cruft ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Streamlit ---
+.streamlit/secrets.toml
+
+# --- Large trained artifacts ---
+models/*.joblib
+models/*.meta.json
+artifacts/
+artifacts_egypt/
+
+# --- Environment / secrets ---
+.env
+.env.*
