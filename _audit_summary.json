@@ -1,0 +1,19 @@
+{
+  "base_rows": 983,
+  "combined_rows": 983,
+  "n_original_features": 317,
+  "n_egypt_features": 51,
+  "exact_dupes": 0,
+  "nzv": 0,
+  "target_proxy_level": 0,
+  "target_proxy_return": 0,
+  "interior_null_columns": 10,
+  "groups": {
+    "EGP-adjusted commodities": 17,
+    "CBE policy rate": 3,
+    "Global input costs (iron ore/coal/gas)": 27,
+    "Egypt macro backdrop (CPI/GDP)": 4
+  },
+  "nzv_cols": [],
+  "dupe_pairs": []
+}

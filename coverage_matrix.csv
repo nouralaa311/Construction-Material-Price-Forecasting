@@ -1,0 +1,2 @@
+resource,horizon,family,regime,status,reason,wf_rmse,wf_skill,test_rmse,test_r2,test_diracc,naive_rmse,dm_p,beats_naive,seeds
+steel,21,gru,trunc50,TRAINED,,722.2375202570416,0.855421684153681,830.4459469888997,-1.3342041259257016,0.4406779661016949,692.498320379778,2.094037067412735e-05,False,3

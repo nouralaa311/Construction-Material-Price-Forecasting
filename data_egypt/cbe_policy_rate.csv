@@ -1,0 +1,25 @@
+# Dataset: Central Bank of Egypt (CBE) key overnight rate (deposit rate proxy)
+# Source: countryeconomy.com historical key-rate aggregator (https://countryeconomy.com/key-rates/egypt)
+#         used because cbe.org.eg blocks automated fetches (WAF); each figure corresponds to a
+#         publicly announced CBE Monetary Policy Committee decision.
+# Provider: countryeconomy.com (Tier-3 aggregator of official CBE MPC announcements)
+# Frequency: event-based (irregular, ~6-8 MPC decisions/year)
+# Units: percent per annum
+# Transformation: none (raw step-function rate history)
+# Reason for inclusion: financing-cost driver for construction/steel demand and importer
+#   working-capital costs; the sharp 2023-2024 hiking cycle coincides with Egypt's currency
+#   devaluation episodes, which are directly relevant to imported-input-cost pass-through.
+# Retrieved: 2026-08-19
+effective_date,cbe_rate_pct
+2022-10-27,13.25
+2022-12-25,16.25
+2023-04-02,18.25
+2023-08-06,19.25
+2024-02-04,21.25
+2024-03-06,27.25
+2025-04-22,25.00
+2025-05-25,24.00
+2025-08-31,22.00
+2025-10-05,21.00
+2025-12-28,20.00
+2026-02-15,19.00

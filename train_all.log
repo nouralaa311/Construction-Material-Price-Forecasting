@@ -1,0 +1,31 @@
+data: (983, 71) | device=cpu | quick=False
+
+[steel] causality assertion PASSED
+  h= 1 gru      RMSE=   468.45 R2=  0.616 DirAcc= 0.633 cov=51% beats_naive=False (552.6s)
+  h= 3 gru      RMSE=   463.22 R2=  0.605 DirAcc= 0.750 cov=7% beats_naive=True (331.1s)
+  h= 7 gru      RMSE=   543.24 R2=  0.382 DirAcc= 0.811 cov=32% beats_naive=True (800.5s)
+  h=14 gru      RMSE=   605.11 R2=  0.076 DirAcc= 0.833 cov=5% beats_naive=True (231.9s)
+  h=21 gru      RMSE=   706.83 R2= -0.761 DirAcc= 0.347 cov=86% beats_naive=False (279.4s)
+
+[cement] causality assertion PASSED
+  h= 1 gru      RMSE=    69.19 R2= -0.056 DirAcc= 0.763 cov=51% beats_naive=True (365.5s)
+  h= 3 gru      RMSE=    77.40 R2= -0.301 DirAcc= 0.766 cov=55% beats_naive=True (849.7s)
+  h= 7 gru      RMSE=   164.62 R2= -4.811 DirAcc= 0.562 cov=91% beats_naive=False (261.4s)
+  h=14 gru      RMSE=   169.69 R2= -4.992 DirAcc= 0.593 cov=74% beats_naive=False (554.0s)
+  h=21 gru      RMSE=   388.60 R2=-25.817 DirAcc= 0.542 cov=83% beats_naive=False (376.3s)
+
+[oil] causality assertion PASSED
+  h= 1 gru      RMSE=     4.65 R2=  0.860 DirAcc= 0.552 cov=94% beats_naive=False (417.1s)
+  h= 3 gru      RMSE=     7.39 R2=  0.637 DirAcc= 0.415 cov=98% beats_naive=False (146.5s)
+  h= 7 gru      RMSE=    10.64 R2=  0.211 DirAcc= 0.528 cov=83% beats_naive=True (205.0s)
+  h=14 gru      RMSE=    13.19 R2= -0.276 DirAcc= 0.500 cov=98% beats_naive=True (386.9s)
+  h=21 gru      RMSE=    15.11 R2= -0.585 DirAcc= 0.591 cov=88% beats_naive=True (146.3s)
+
+[aluminium] causality assertion PASSED
+  h= 1 gru      RMSE=    53.38 R2=  0.911 DirAcc=   nan cov=0% beats_naive=True (275.9s)
+  h= 3 gru      RMSE=   108.36 R2=  0.651 DirAcc= 0.528 cov=92% beats_naive=False (76.2s)
+  h= 7 gru      RMSE=   144.83 R2=  0.338 DirAcc= 0.508 cov=100% beats_naive=False (115.8s)
+  h=14 gru      RMSE=   192.30 R2=  0.039 DirAcc= 0.623 cov=100% beats_naive=False (96.9s)
+  h=21 gru      RMSE=   246.78 R2= -0.517 DirAcc= 0.644 cov=100% beats_naive=False (89.6s)
+
+[copper] causality assertion PASSED

@@ -1,0 +1,129 @@
+  steel      h= 1 ridge       skip (exists)
+  steel      h= 1 elasticnet  skip (exists)
+  steel      h= 1 rf          skip (exists)
+  steel      h= 1 extratrees  skip (exists)
+  steel      h= 1 xgboost     skip (exists)
+  steel      h= 1 lightgbm    skip (exists)
+  steel      h= 1 catboost    skip (exists)
+  steel      h= 1 gru         skip (exists)
+  steel      h= 1 bigru       skip (exists)
+  steel      h= 3 ridge       skip (exists)
+  steel      h= 3 elasticnet  skip (exists)
+  steel      h= 3 rf          skip (exists)
+  steel      h= 3 extratrees  skip (exists)
+  steel      h= 3 xgboost     skip (exists)
+  steel      h= 3 lightgbm    skip (exists)
+  steel      h= 3 catboost    skip (exists)
+  steel      h= 3 gru         skip (exists)
+  steel      h= 3 bigru       ok  wf=   708.01 test=   532.39 loses
+  steel      h= 7 ridge       skip (exists)
+  steel      h= 7 elasticnet  skip (exists)
+  steel      h= 7 rf          skip (exists)
+  steel      h= 7 extratrees  skip (exists)
+  steel      h= 7 xgboost     skip (exists)
+  steel      h= 7 lightgbm    skip (exists)
+  steel      h= 7 catboost    skip (exists)
+  steel      h= 7 gru         ok  wf=   673.64 test=   631.38 loses
+  steel      h= 7 bigru       ok  wf=   689.68 test=   594.39 BEATS
+  steel      h=14 ridge       skip (exists)
+  steel      h=14 elasticnet  skip (exists)
+  steel      h=14 rf          skip (exists)
+  steel      h=14 extratrees  skip (exists)
+  steel      h=14 xgboost     skip (exists)
+  steel      h=14 lightgbm    skip (exists)
+  steel      h=14 catboost    skip (exists)
+  steel      h=14 gru         ok  wf=   680.64 test=   713.31 loses
+  steel      h=14 bigru       ok  wf=   711.42 test=   746.23 loses
+  steel      h=21 ridge       skip (exists)
+  steel      h=21 elasticnet  skip (exists)
+  steel      h=21 rf          skip (exists)
+  steel      h=21 extratrees  skip (exists)
+  steel      h=21 xgboost     skip (exists)
+  steel      h=21 lightgbm    skip (exists)
+  steel      h=21 catboost    skip (exists)
+  steel      h=21 gru         skip (exists)
+  steel      h=21 bigru       ok  wf=   766.40 test=  1022.68 loses
+  cement     h= 1 ridge       ok  wf=   117.09 test=    76.03 BEATS
+  cement     h= 1 elasticnet  ok  wf=   115.25 test=    72.59 BEATS
+  cement     h= 1 rf          ok  wf=   103.14 test=    64.98 BEATS
+  cement     h= 1 extratrees  ok  wf=   102.72 test=    64.95 BEATS
+  cement     h= 1 xgboost     ok  wf=   112.52 test=    78.12 BEATS
+  cement     h= 1 lightgbm    ok  wf=   116.98 test=    90.32 loses
+  cement     h= 1 catboost    ok  wf=   107.93 test=    73.40 BEATS
+  cement     h= 1 gru         ok  wf=   110.50 test=    75.71 BEATS
+  cement     h= 1 bigru       ok  wf=   107.42 test=   129.76 loses
+  cement     h= 3 ridge       ok  wf=   129.00 test=    85.13 BEATS
+  cement     h= 3 elasticnet  ok  wf=   126.75 test=    85.23 BEATS
+  cement     h= 3 rf          ok  wf=   108.58 test=    81.52 BEATS
+  cement     h= 3 extratrees  ok  wf=   108.41 test=    71.14 BEATS
+  cement     h= 3 xgboost     ok  wf=   118.33 test=    80.56 BEATS
+  cement     h= 3 lightgbm    ok  wf=   121.22 test=    82.82 BEATS
+  cement     h= 3 catboost    ok  wf=   119.92 test=    85.32 BEATS
+  cement     h= 3 gru         ok  wf=   115.23 test=    84.88 BEATS
+  cement     h= 3 bigru       ok  wf=   112.46 test=    82.38 BEATS
+  cement     h= 7 ridge       ok  wf=   140.88 test=   166.31 loses
+  cement     h= 7 elasticnet  ok  wf=   144.02 test=   177.03 loses
+  cement     h= 7 rf          ok  wf=   123.03 test=    80.08 BEATS
+  cement     h= 7 extratrees  ok  wf=   113.56 test=    80.36 BEATS
+  cement     h= 7 xgboost     ok  wf=   123.91 test=    88.94 loses
+  cement     h= 7 lightgbm    ok  wf=   127.73 test=    80.05 BEATS
+  cement     h= 7 catboost    ok  wf=   127.73 test=   234.92 loses
+  cement     h= 7 gru         ok  wf=   118.90 test=   143.17 loses
+  cement     h= 7 bigru       ok  wf=   117.16 test=   187.23 loses
+  cement     h=14 ridge       ok  wf=   247.54 test=   102.87 loses
+  cement     h=14 elasticnet  ok  wf=   285.30 test=   114.97 loses
+  cement     h=14 rf          ok  wf=   157.33 test=   233.85 loses
+  cement     h=14 extratrees  ok  wf=   138.17 test=   150.16 loses
+  cement     h=14 xgboost     ok  wf=   142.74 test=    89.94 loses
+  cement     h=14 lightgbm    ok  wf=   151.41 test=    91.67 loses
+  cement     h=14 catboost    ok  wf=   136.96 test=   141.46 loses
+  cement     h=14 gru         ok  wf=   149.79 test=   130.95 loses
+  cement     h=14 bigru       ok  wf=   150.33 test=   126.67 loses
+  cement     h=21 ridge       ok  wf=   263.31 test=   140.41 loses
+  cement     h=21 elasticnet  ok  wf=   262.07 test=   136.61 loses
+  cement     h=21 rf          ok  wf=   173.73 test=   145.54 loses
+  cement     h=21 extratrees  ok  wf=   156.21 test=   150.11 loses
+  cement     h=21 xgboost     ok  wf=   166.13 test=   161.95 loses
+  cement     h=21 lightgbm    ok  wf=   166.51 test=   175.18 loses
+  cement     h=21 catboost    ok  wf=   155.51 test=   186.44 loses
+  cement     h=21 gru         ok  wf=   164.75 test=   193.89 loses
+  cement     h=21 bigru       ok  wf=   165.15 test=   449.26 loses
+  oil        h= 1 ridge       ok  wf=     1.37 test=     4.75 loses
+  oil        h= 1 elasticnet  ok  wf=     1.31 test=     4.66 loses
+  oil        h= 1 rf          ok  wf=     1.26 test=     4.65 loses
+  oil        h= 1 extratrees  ok  wf=     1.26 test=     4.64 loses
+  oil        h= 1 xgboost     ok  wf=     1.30 test=     4.57 BEATS
+  oil        h= 1 lightgbm    ok  wf=     1.36 test=     4.59 BEATS
+  oil        h= 1 catboost    ok  wf=     1.34 test=     4.76 loses
+  oil        h= 1 gru         ok  wf=     1.27 test=     4.61 BEATS
+  oil        h= 1 bigru       ok  wf=     1.26 test=     4.64 loses
+  oil        h= 3 ridge       ok  wf=     1.98 test=     7.46 loses
+  oil        h= 3 elasticnet  ok  wf=     1.96 test=     7.49 loses
+  oil        h= 3 rf          ok  wf=     1.94 test=     7.25 BEATS
+  oil        h= 3 extratrees  ok  wf=     1.92 test=     7.27 BEATS
+  oil        h= 3 xgboost     ok  wf=     1.98 test=     7.14 BEATS
+  oil        h= 3 lightgbm    ok  wf=     2.01 test=     7.11 BEATS
+  oil        h= 3 catboost    ok  wf=     2.06 test=     7.21 BEATS
+  oil        h= 3 gru         ok  wf=     1.92 test=     7.42 loses
+  oil        h= 3 bigru       ok  wf=     1.89 test=     7.33 BEATS
+  oil        h= 7 ridge       ok  wf=     5.80 test=    27.00 loses
+  oil        h= 7 elasticnet  ok  wf=     4.97 test=    26.28 loses
+  oil        h= 7 rf          ok  wf=     3.09 test=    11.16 loses
+  oil        h= 7 extratrees  ok  wf=     3.27 test=    11.31 loses
+  oil        h= 7 xgboost     ok  wf=     3.22 test=    11.84 loses
+  oil        h= 7 lightgbm    ok  wf=     3.25 test=    12.04 loses
+  oil        h= 7 catboost    ok  wf=     3.06 test=    11.53 loses
+  oil        h= 7 gru         ok  wf=     2.91 test=    10.60 BEATS
+  oil        h= 7 bigru       ok  wf=     2.97 test=    10.80 loses
+  oil        h=14 ridge       ok  wf=     5.77 test=    24.03 loses
+  oil        h=14 elasticnet  ok  wf=     5.79 test=    23.68 loses
+  oil        h=14 rf          ok  wf=     3.44 test=    13.48 BEATS
+  oil        h=14 extratrees  ok  wf=     3.58 test=    13.62 BEATS
+  oil        h=14 xgboost     ok  wf=     3.46 test=    13.97 loses
+  oil        h=14 lightgbm    ok  wf=     3.58 test=    13.85 loses
+  oil        h=14 catboost    ok  wf=     3.59 test=    14.15 loses
+  oil        h=14 gru         ok  wf=     3.17 test=    13.58 BEATS
+  oil        h=14 bigru       ok  wf=     3.27 test=    13.81 loses
+  oil        h=21 ridge       ok  wf=     7.70 test=    16.41 loses
+  oil        h=21 elasticnet  ok  wf=     7.73 test=    16.23 loses
+  oil        h=21 rf          ok  wf=     3.71 test=    14.02 BEATS
