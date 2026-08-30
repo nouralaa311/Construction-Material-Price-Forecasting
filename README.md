@@ -179,7 +179,6 @@ See [Model Performance](#model-performance) above. Full per-configuration result
 ## Future Improvements
 
 **Short term**
-- Add `requirements.txt`/`pyproject.toml`.
 - Add a `LICENSE` file.
 - Mark or remove the legacy `artifacts/`/`artifacts_egypt/` directories.
 
@@ -194,7 +193,4 @@ See [Model Performance](#model-performance) above. Full per-configuration result
 - Model monitoring / drift detection on live forecasts vs. realized prices.
 - Containerized deployment (Docker) for the Streamlit app.
 
-## Author
 
-**Nour Alaa** — Data Science student, Helwan National University, Cairo, Egypt.
-GitHub: [nouralaa311](https://github.com/nouralaa311) · LinkedIn: [nour-alaa-7087a7223](https://linkedin.com/in/nour-alaa-7087a7223/)
