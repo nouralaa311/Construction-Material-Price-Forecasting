@@ -1,6 +1,8 @@
 # RedCon — Multi-Resource Construction Material Price Forecasting
 
-Leakage-audited, statistically validated price forecasting for Egypt's construction-materials market — steel, cement, oil, aluminium, and copper — served through an interactive Streamlit app.
+Don’t just predict the price. Prove the signal. Make the decision.
+
+RedCon is an AI-powered construction intelligence platform built for the Egyptian market, combining leakage-safe time-series forecasting, statistical validation, global commodity signals, and Egypt-specific economic data to transform raw market data into trustworthy forecasts and procurement intelligence.
 
 ## 🚀 Live Demo
 
