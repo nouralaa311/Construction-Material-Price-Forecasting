@@ -2,6 +2,10 @@
 
 Leakage-audited, statistically validated price forecasting for Egypt's construction-materials market — steel, cement, oil, aluminium, and copper — served through an interactive Streamlit app.
 
+## 🚀 Live Demo
+
+Open RedCon — Streamlit Dashboard https://construction-material-price-forecasting-y85ircbktt26xgkpbqxfgt.streamlit.app/
+
 ## Overview
 
 RedCon forecasts short-horizon prices (1, 3, 7, 14, and 21 observations ahead) for five commodities relevant to construction cost planning in Egypt. Its defining feature is that **every claimed result has to survive a statistical gauntlet before it reaches the app**: a causality check that scrambles future data and demands the past stay bit-identical, walk-forward cross-validation, a Diebold-Mariano test against the naive (persistence) forecast, and Benjamini-Hochberg correction across every configuration tested. Two of the five commodities (steel, cement) are treated as hypothesized "signal" cases; the other three (oil, aluminium, copper) are deliberately kept as **controls** where the project's own prior is that the naive forecast should win — and says so in the UI when it does.
