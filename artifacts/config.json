@@ -1,0 +1,131 @@
+{
+  "frozen": {
+    "horizon": 3,
+    "target_kind": "ret",
+    "feature_set": "topK",
+    "best_model": "GRU (bigru, tuned)",
+    "n_features": 46,
+    "imputation": "ffill",
+    "gru_scaler": "standard",
+    "strategy": "Multi-output (GRU)",
+    "dead_zone": 0.01,
+    "regime_feature": true,
+    "combiner": "weighted",
+    "ensemble_weights": {
+      "xgb": 0.0507,
+      "gru": 0.9493,
+      "attn": 0.0
+    },
+    "xgb_params": {
+      "n_estimators": 800,
+      "max_depth": 4,
+      "learning_rate": 0.10023106028879927,
+      "min_child_weight": 20,
+      "subsample": 0.6017091388673623,
+      "colsample_bytree": 0.318655258808017,
+      "gamma": 0.007250058963767625,
+      "reg_alpha": 0.0006772503009773079,
+      "reg_lambda": 0.9266535309551958
+    },
+    "gru_params": {
+      "arch": "bigru",
+      "seq_len": 45,
+      "hidden": 96,
+      "layers": 1,
+      "dropout": 0.1384736388708897,
+      "lr": 0.0013361390097500257,
+      "wd": 1.1108148786284188e-06,
+      "batch": 16,
+      "loss": "mse",
+      "sched": "plateau",
+      "scaler": "standard"
+    },
+    "clf_params": {
+      "n_estimators": 200,
+      "max_depth": 6,
+      "learning_rate": 0.17618561667189314,
+      "min_child_weight": 21,
+      "subsample": 0.6523068845866853,
+      "colsample_bytree": 0.3683704798044687,
+      "reg_lambda": 2.3942042625390267,
+      "scale_pos_weight": 1.1602287406094018
+    },
+    "clf_threshold": 0.49999999999999994
+  },
+  "cfg": {
+    "data_path": "allprices.csv",
+    "artifact_dir": "artifacts",
+    "target": "Steel_Price",
+    "date_col": "Date",
+    "horizons": [
+      1,
+      3,
+      7,
+      14,
+      21
+    ],
+    "target_kinds": [
+      "price",
+      "ret",
+      "logret"
+    ],
+    "train_frac": 0.7,
+    "val_frac": 0.15,
+    "n_walk_folds": 4,
+    "lags": [
+      1,
+      2,
+      3,
+      5,
+      7,
+      10,
+      14,
+      21,
+      30,
+      45,
+      60
+    ],
+    "windows": [
+      3,
+      5,
+      7,
+      14,
+      21,
+      30,
+      45,
+      60
+    ],
+    "warmup": 60,
+    "top_k_features": 45,
+    "n_trials_xgb": 60,
+    "n_trials_gru": 25,
+    "n_trials_clf": 20,
+    "optuna_timeout_xgb": 900,
+    "optuna_timeout_gru": 3000,
+    "optuna_timeout_clf": 400,
+    "max_epochs": 80,
+    "patience": 10,
+    "grad_clip": 1.0,
+    "dead_zones": [
+      0.0,
+      0.001,
+      0.003,
+      0.005,
+      0.01
+    ],
+    "coverage_floor": 0.3,
+    "seed": 42
+  },
+  "test_metrics": {
+    "model": "XGBoost (tuned)",
+    "horizon": 3,
+    "RMSE": 447.7223368494187,
+    "MAE": 341.74778177354716,
+    "R2": 0.631197613941903,
+    "MAPE%": 0.8681928091718787,
+    "DirAcc": 0.896551724137931,
+    "Coverage": 0.24786324786324787,
+    "N_dir": 29,
+    "p_value": 7.618218660354614e-06
+  }
+}
